@@ -48,6 +48,11 @@
   <ItemGroup>
     <Compile Include="Business\Booking.cs" />
     <Compile Include="Business\Employee.cs" />
+    <Compile Include="Business\Guest.cs" />
+    <Compile Include="Business\GuestAccount.cs" />
+    <Compile Include="Business\Occupancy.cs" />
+    <Compile Include="Business\Role.cs" />
+    <Compile Include="Business\Room.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>

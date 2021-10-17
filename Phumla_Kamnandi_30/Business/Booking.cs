@@ -17,6 +17,28 @@ namespace Phumla_Kamnandi_30.Business_layer
         private bool depositPaid;
         #endregion
 
+        #region constructor
+        public Booking()
+        {
+            bookingID = null;
+            checkIn = DateTime.MinValue;
+            checkOut = DateTime.MinValue;
+            numRooms = 0;
+            totalCharge = 0;
+            depositPaid = false;
+        }
+
+        public Booking(string bookingID, DateTime checkInDate, DateTime checkOutDate, int numOfRooms, int total, bool deposit )
+        {
+            bookingID = bookingID;
+            checkIn = checkInDate;
+            checkOut = checkOutDate;
+            numRooms = numOfRooms;
+            totalCharge = total;
+            depositPaid = deposit;
+        }
+        #endregion
+
         #region properties
         public string getBookingID
         {
@@ -53,5 +75,7 @@ namespace Phumla_Kamnandi_30.Business_layer
             set { depositPaid = value; }
         }
         #endregion
+
+       
     }
 }
