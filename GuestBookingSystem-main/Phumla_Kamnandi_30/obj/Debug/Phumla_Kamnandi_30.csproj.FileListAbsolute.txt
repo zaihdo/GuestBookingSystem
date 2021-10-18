@@ -1,0 +1,9 @@
+C:\Users\takut\OneDrive - University of Cape Town\Documents\Education\Information Systems\INF2011S\Project\Phumla_Kamnandi_30\bin\Debug\Phumla_Kamnandi_30.exe.config
+C:\Users\takut\OneDrive - University of Cape Town\Documents\Education\Information Systems\INF2011S\Project\Phumla_Kamnandi_30\bin\Debug\Phumla_Kamnandi_30.exe
+C:\Users\takut\OneDrive - University of Cape Town\Documents\Education\Information Systems\INF2011S\Project\Phumla_Kamnandi_30\bin\Debug\Phumla_Kamnandi_30.pdb
+C:\Users\takut\OneDrive - University of Cape Town\Documents\Education\Information Systems\INF2011S\Project\Phumla_Kamnandi_30\obj\Debug\Phumla_Kamnandi_30.csproj.AssemblyReference.cache
+C:\Users\takut\OneDrive - University of Cape Town\Documents\Education\Information Systems\INF2011S\Project\Phumla_Kamnandi_30\obj\Debug\Phumla_Kamnandi_30.Properties.Resources.resources
+C:\Users\takut\OneDrive - University of Cape Town\Documents\Education\Information Systems\INF2011S\Project\Phumla_Kamnandi_30\obj\Debug\Phumla_Kamnandi_30.csproj.GenerateResource.cache
+C:\Users\takut\OneDrive - University of Cape Town\Documents\Education\Information Systems\INF2011S\Project\Phumla_Kamnandi_30\obj\Debug\Phumla_Kamnandi_30.csproj.CoreCompileInputs.cache
+C:\Users\takut\OneDrive - University of Cape Town\Documents\Education\Information Systems\INF2011S\Project\Phumla_Kamnandi_30\obj\Debug\Phumla_Kamnandi_30.exe
+C:\Users\takut\OneDrive - University of Cape Town\Documents\Education\Information Systems\INF2011S\Project\Phumla_Kamnandi_30\obj\Debug\Phumla_Kamnandi_30.pdb
