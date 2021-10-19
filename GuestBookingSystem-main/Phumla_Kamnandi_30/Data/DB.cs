@@ -13,7 +13,7 @@ namespace Phumla_Kamnandi_30.Data
     class DB
     {
         #region Variable declaration
-        private string strConn = Settings.Default.EmployeeDatabaseConnectionString;
+        private string strConn = Settings.Default.Hotel DatabaseConnectionString;
         protected SqlConnection cnMain;
         protected DataSet dsMain;
         protected SqlDataAdapter daMain;

@@ -14,6 +14,7 @@ namespace Phumla_Kamnandi_30.Business_layer
 
         private string empID;
         private Role roleType;
+        private string description;
         #endregion
         
         

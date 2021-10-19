@@ -25,5 +25,7 @@ namespace Phumla_Kamnandi_30.Properties
                 return defaultInstance;
             }
         }
+
+        public string EmployeeDatabaseConnectionString { get; internal set; }
     }
 }
