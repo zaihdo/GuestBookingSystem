@@ -43,6 +43,7 @@ namespace Phumla_Kamnandi_30.Business_layer
         public string getBookingID
         {
             get { return bookingID;  }
+            set { bookingID = value; }
         }
 
         public int getNumRooms
