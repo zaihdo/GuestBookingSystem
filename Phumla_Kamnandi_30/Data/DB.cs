@@ -10,10 +10,10 @@ using Phumla_Kamnandi_30.Properties;
 
 namespace Phumla_Kamnandi_30.Data
 {
-    class DB
+    public class DB
     {
         #region Variable declaration
-        private string strConn = Settings.Default.Hotel DatabaseConnectionString;
+        private string strConn = Settings.Default.Hotel_databaseConnectionString;
         protected SqlConnection cnMain;
         protected DataSet dsMain;
         protected SqlDataAdapter daMain;

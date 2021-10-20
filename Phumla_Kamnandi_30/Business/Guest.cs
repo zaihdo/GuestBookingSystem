@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Phumla_Kamnandi_30.Business
 {
-    class Guest:Person
+    public class Guest:Person
     {
         #region Data Members
         private string guestID;
@@ -22,9 +22,10 @@ namespace Phumla_Kamnandi_30.Business
         #endregion
 
         #region Constructor
-        public Guest(string guestId) 
+        public Guest() 
         {
-            guestID = guestId;            
+            guestID = "";
+
         }
         #endregion
 

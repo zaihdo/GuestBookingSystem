@@ -13,3 +13,12 @@ C:\Users\takut\OneDrive - University of Cape Town\Documents\Education\Informatio
 C:\Users\takut\OneDrive - University of Cape Town\Documents\Education\Information Systems\INF2011S\Project\GuestBookingSystem-main\GuestBookingSystem-main\GuestBookingSystem-main\Phumla_Kamnandi_30\obj\Debug\Phumla_Kamnandi_30.csproj.CoreCompileInputs.cache
 C:\Users\takut\OneDrive - University of Cape Town\Documents\Education\Information Systems\INF2011S\Project\GuestBookingSystem-main\GuestBookingSystem-main\GuestBookingSystem-main\Phumla_Kamnandi_30\obj\Debug\Phumla_Kamnandi_30.exe
 C:\Users\takut\OneDrive - University of Cape Town\Documents\Education\Information Systems\INF2011S\Project\GuestBookingSystem-main\GuestBookingSystem-main\GuestBookingSystem-main\Phumla_Kamnandi_30\obj\Debug\Phumla_Kamnandi_30.pdb
+C:\Users\Libhongo\Documents\Information systems\Project\GuestBookingSystem-main\GuestBookingSystem-main\Phumla_Kamnandi_30\obj\Debug\Phumla_Kamnandi_30.Properties.Resources.resources
+C:\Users\Libhongo\Documents\Information systems\Project\GuestBookingSystem-main\GuestBookingSystem-main\Phumla_Kamnandi_30\obj\Debug\Phumla_Kamnandi_30.csproj.GenerateResource.cache
+C:\Users\Libhongo\Documents\Information systems\Project\GuestBookingSystem-main\GuestBookingSystem-main\Phumla_Kamnandi_30\obj\Debug\Phumla_Kamnandi_30.csproj.CoreCompileInputs.cache
+C:\Users\Libhongo\Documents\Information systems\Project\GuestBookingSystem-main\GuestBookingSystem-main\Phumla_Kamnandi_30\obj\Debug\Phumla_Kamnandi_30.exe
+C:\Users\Libhongo\Documents\Information systems\Project\GuestBookingSystem-main\GuestBookingSystem-main\Phumla_Kamnandi_30\obj\Debug\Phumla_Kamnandi_30.pdb
+C:\Users\Libhongo\Documents\Information systems\Project\GuestBookingSystem-main\GuestBookingSystem-main\Phumla_Kamnandi_30\bin\Debug\HotelDatabase.mdf
+C:\Users\Libhongo\Documents\Information systems\Project\GuestBookingSystem-main\GuestBookingSystem-main\Phumla_Kamnandi_30\bin\Debug\Phumla_Kamnandi_30.exe.config
+C:\Users\Libhongo\Documents\Information systems\Project\GuestBookingSystem-main\GuestBookingSystem-main\Phumla_Kamnandi_30\bin\Debug\Phumla_Kamnandi_30.exe
+C:\Users\Libhongo\Documents\Information systems\Project\GuestBookingSystem-main\GuestBookingSystem-main\Phumla_Kamnandi_30\bin\Debug\Phumla_Kamnandi_30.pdb

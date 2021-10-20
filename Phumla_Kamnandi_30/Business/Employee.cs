@@ -13,8 +13,8 @@ namespace Phumla_Kamnandi_30.Business_layer
         #region data members
 
         private string empID;
-        private Role roleType;
-        private string description;
+      //  private Role roleType;
+        //private string description;
         #endregion
         
         

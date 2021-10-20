@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 
 namespace Phumla_Kamnandi_30.Business_layer
 {
-    class Booking
+    public class Booking
     {
         #region data members
         private string bookingID;
+        private string guestID;
         private int numRooms;
         private DateTime checkIn;
         private DateTime checkOut;
@@ -28,9 +29,9 @@ namespace Phumla_Kamnandi_30.Business_layer
             depositPaid = false;
         }
 
-        public Booking(string bookingID, DateTime checkInDate, DateTime checkOutDate, int numOfRooms, int total, bool deposit )
+        public Booking(string bookingNum, DateTime checkInDate, DateTime checkOutDate, int numOfRooms, int total, bool deposit )
         {
-            bookingID = bookingID;
+            bookingID = bookingNum;
             checkIn = checkInDate;
             checkOut = checkOutDate;
             numRooms = numOfRooms;
@@ -40,6 +41,11 @@ namespace Phumla_Kamnandi_30.Business_layer
         #endregion
 
         #region properties
+        public string getGuestID
+        {
+            get { return guestID; }
+            set { guestID = value; }
+        }
         public string getBookingID
         {
             get { return bookingID;  }

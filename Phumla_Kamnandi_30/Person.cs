@@ -18,24 +18,24 @@ namespace Phumla_Kamnandi_30
         #endregion
 
         #region Properties
-        public string ID
+        public string getID
         {
             get { return Id; }
             set { Id = value; }
         }
 
-        public string Name
+        public string getName
         {
             get { return name; }
             set { name = value; }
         }
-        public string Telephone
+        public string getPhone
         {
             get { return Phone; }
             set { Phone = value; }
         }
 
-        public string Address
+        public string getAddress
         {
             get { return address; }
             set { address = value; }
