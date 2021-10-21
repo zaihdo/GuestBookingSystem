@@ -6,7 +6,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Phumla_Kamnandi_30.Business;
-using Phumla_Kamnandi_30.Business_layer;
 using System.Collections.ObjectModel;
 
 namespace Phumla_Kamnandi_30.Data

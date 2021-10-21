@@ -16,5 +16,12 @@ namespace Phumla_Kamnandi_30
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+      
     }
 }
