@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Phumla_Kamnandi_30.Business_layer
+namespace Phumla_Kamnandi_30.Business
 {
 
     class Employee :Person

@@ -86,10 +86,58 @@
       <DependentUpon>Hotel DatabaseDataSet.xsd</DependentUpon>
     </Compile>
     <Compile Include="Person.cs" />
+    <Compile Include="Presentation\BookingStatusForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\BookingStatusForm.Designer.cs">
+      <DependentUpon>BookingStatusForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\CreateBookingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\CreateBookingForm.Designer.cs">
+      <DependentUpon>CreateBookingForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\CreateGuestForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\CreateGuestForm.Designer.cs">
+      <DependentUpon>CreateGuestForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\HotelMDIParent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\HotelMDIParent.Designer.cs">
+      <DependentUpon>HotelMDIParent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\OccupancyLevelsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\OccupancyLevelsForm.Designer.cs">
+      <DependentUpon>OccupancyLevelsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\RoomAvailabilityForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\RoomAvailabilityForm.Designer.cs">
+      <DependentUpon>RoomAvailabilityForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\CreateBookingForm.resx">
+      <DependentUpon>CreateBookingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\CreateGuestForm.resx">
+      <DependentUpon>CreateGuestForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\HotelMDIParent.resx">
+      <DependentUpon>HotelMDIParent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\RoomAvailabilityForm.resx">
+      <DependentUpon>RoomAvailabilityForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
