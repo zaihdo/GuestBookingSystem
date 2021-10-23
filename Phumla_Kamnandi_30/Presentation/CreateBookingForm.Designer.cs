@@ -30,6 +30,7 @@ namespace Phumla_Kamnandi_30.Presentation
         private void InitializeComponent()
         {
             this.gbxBooking = new System.Windows.Forms.GroupBox();
+            this.exitButton = new System.Windows.Forms.Button();
             this.numRoomsCombo = new System.Windows.Forms.ComboBox();
             this.checkOutPicker = new System.Windows.Forms.DateTimePicker();
             this.checkInPicker = new System.Windows.Forms.DateTimePicker();
@@ -46,7 +47,6 @@ namespace Phumla_Kamnandi_30.Presentation
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.homeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.exitButton = new System.Windows.Forms.Button();
             this.gbxBooking.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -72,7 +72,15 @@ namespace Phumla_Kamnandi_30.Presentation
             this.gbxBooking.TabIndex = 3;
             this.gbxBooking.TabStop = false;
             this.gbxBooking.Text = "Booking Details";
-            this.gbxBooking.Enter += new System.EventHandler(this.gbxBooking_Enter);
+            // 
+            // exitButton
+            // 
+            this.exitButton.Location = new System.Drawing.Point(346, 162);
+            this.exitButton.Name = "exitButton";
+            this.exitButton.Size = new System.Drawing.Size(75, 23);
+            this.exitButton.TabIndex = 8;
+            this.exitButton.Text = "Exit";
+            this.exitButton.UseVisualStyleBackColor = true;
             // 
             // numRoomsCombo
             // 
@@ -81,7 +89,6 @@ namespace Phumla_Kamnandi_30.Presentation
             this.numRoomsCombo.Name = "numRoomsCombo";
             this.numRoomsCombo.Size = new System.Drawing.Size(121, 21);
             this.numRoomsCombo.TabIndex = 17;
-            this.numRoomsCombo.SelectedIndexChanged += new System.EventHandler(this.numRoomsCombo_SelectedIndexChanged);
             // 
             // checkOutPicker
             // 
@@ -89,7 +96,6 @@ namespace Phumla_Kamnandi_30.Presentation
             this.checkOutPicker.Name = "checkOutPicker";
             this.checkOutPicker.Size = new System.Drawing.Size(200, 20);
             this.checkOutPicker.TabIndex = 15;
-            this.checkOutPicker.ValueChanged += new System.EventHandler(this.dateTimePicker2_ValueChanged);
             // 
             // checkInPicker
             // 
@@ -97,7 +103,6 @@ namespace Phumla_Kamnandi_30.Presentation
             this.checkInPicker.Name = "checkInPicker";
             this.checkInPicker.Size = new System.Drawing.Size(200, 20);
             this.checkInPicker.TabIndex = 5;
-            this.checkInPicker.ValueChanged += new System.EventHandler(this.dateTimePicker1_ValueChanged);
             // 
             // btnCancel
             // 
@@ -107,7 +112,6 @@ namespace Phumla_Kamnandi_30.Presentation
             this.btnCancel.TabIndex = 7;
             this.btnCancel.Text = "Cancel";
             this.btnCancel.UseVisualStyleBackColor = true;
-            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
             // btnSubmitBooking
             // 
@@ -117,7 +121,6 @@ namespace Phumla_Kamnandi_30.Presentation
             this.btnSubmitBooking.TabIndex = 7;
             this.btnSubmitBooking.Text = "Submit Booking";
             this.btnSubmitBooking.UseVisualStyleBackColor = true;
-            this.btnSubmitBooking.Click += new System.EventHandler(this.btnSubmitBooking_Click);
             // 
             // radHigh
             // 
@@ -129,7 +132,6 @@ namespace Phumla_Kamnandi_30.Presentation
             this.radHigh.TabStop = true;
             this.radHigh.Text = "High";
             this.radHigh.UseVisualStyleBackColor = true;
-            this.radHigh.CheckedChanged += new System.EventHandler(this.radHigh_CheckedChanged);
             // 
             // radMed
             // 
@@ -141,7 +143,6 @@ namespace Phumla_Kamnandi_30.Presentation
             this.radMed.TabStop = true;
             this.radMed.Text = "Medium";
             this.radMed.UseVisualStyleBackColor = true;
-            this.radMed.CheckedChanged += new System.EventHandler(this.radMed_CheckedChanged);
             // 
             // radLow
             // 
@@ -153,7 +154,6 @@ namespace Phumla_Kamnandi_30.Presentation
             this.radLow.TabStop = true;
             this.radLow.Text = "Low";
             this.radLow.UseVisualStyleBackColor = true;
-            this.radLow.CheckedChanged += new System.EventHandler(this.radLow_CheckedChanged);
             // 
             // lblRate
             // 
@@ -172,7 +172,6 @@ namespace Phumla_Kamnandi_30.Presentation
             this.lblNumRooms.Size = new System.Drawing.Size(92, 13);
             this.lblNumRooms.TabIndex = 9;
             this.lblNumRooms.Text = "Number of Rooms";
-            this.lblNumRooms.Click += new System.EventHandler(this.lblNumRooms_Click);
             // 
             // lblCheckOut
             // 
@@ -182,7 +181,6 @@ namespace Phumla_Kamnandi_30.Presentation
             this.lblCheckOut.Size = new System.Drawing.Size(84, 13);
             this.lblCheckOut.TabIndex = 8;
             this.lblCheckOut.Text = "Check-Out Date";
-            this.lblCheckOut.Click += new System.EventHandler(this.label2_Click);
             // 
             // lblCheckIn
             // 
@@ -192,7 +190,6 @@ namespace Phumla_Kamnandi_30.Presentation
             this.lblCheckIn.Size = new System.Drawing.Size(76, 13);
             this.lblCheckIn.TabIndex = 7;
             this.lblCheckIn.Text = "Check-In Date";
-            this.lblCheckIn.Click += new System.EventHandler(this.lblCheckIn_Click);
             // 
             // menuStrip1
             // 
@@ -225,16 +222,6 @@ namespace Phumla_Kamnandi_30.Presentation
             this.exitToolStripMenuItem.Size = new System.Drawing.Size(107, 22);
             this.exitToolStripMenuItem.Text = "Exit";
             // 
-            // exitButton
-            // 
-            this.exitButton.Location = new System.Drawing.Point(346, 168);
-            this.exitButton.Name = "exitButton";
-            this.exitButton.Size = new System.Drawing.Size(75, 23);
-            this.exitButton.TabIndex = 8;
-            this.exitButton.Text = "Exit";
-            this.exitButton.UseVisualStyleBackColor = true;
-            this.exitButton.Click += new System.EventHandler(this.exitButton_Click);
-            // 
             // CreateBookingForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -245,7 +232,6 @@ namespace Phumla_Kamnandi_30.Presentation
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "CreateBookingForm";
             this.Text = "Create Booking";
-            this.Load += new System.EventHandler(this.CreateBookingForm_Load);
             this.gbxBooking.ResumeLayout(false);
             this.gbxBooking.PerformLayout();
             this.menuStrip1.ResumeLayout(false);

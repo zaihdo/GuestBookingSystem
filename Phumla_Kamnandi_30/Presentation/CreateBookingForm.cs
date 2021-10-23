@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Phumla_Kamnandi_30.Business;
+using Phumla_Kamnandi_30.Business;
 
 namespace Phumla_Kamnandi_30.Presentation
 {
@@ -17,13 +17,15 @@ namespace Phumla_Kamnandi_30.Presentation
         private Booking booking;
         private BookingController bookingController;
         public bool bookingFormClosed = false;
-
+        
         public enum Season
         {
             low = 550,
             mid = 750,
             high = 995
         }
+        protected Season price;
+        protected Decimal roomPrice;
 
 
 
@@ -57,11 +59,11 @@ namespace Phumla_Kamnandi_30.Presentation
             
             booking = new Booking();
           //  booking.getBookingID = idTextBox.Text;
-            booking.getCheckInDate = checkInPicker.Text;
-            booking.getCheckOutDate = checkOutPicker.Text;
-            booking.getNumberOfRooms = numRoomsCombo.Text;
+            booking.getCheckIn = checkInPicker.Text;
+            booking.getCheckOut = checkOutPicker.Text;
+            booking.getNumRooms = numRoomsCombo.Text;
             
-            switch ()
+            
 
             
         }
@@ -133,21 +135,54 @@ namespace Phumla_Kamnandi_30.Presentation
         {
 
         }
-
+        #region Radio Buttons
         private void radLow_CheckedChanged(object sender, EventArgs e)
         {
-
+            if (radLow != null)
+            {
+                /* If the call has been triggered by the radio button (i.e sender) , 
+                then check if the radio button is checked and execute the appropriate code */
+                if (radLow.Checked)
+                {
+                    price = CreateBookingForm.Season.low;
+                    roomPrice = decimal.Parse(price);
+                    
+                }
+            }
         }
 
         private void radMed_CheckedChanged(object sender, EventArgs e)
         {
-
+            if (radMed != null)
+            {
+                /* If the call has been triggered by the radio button (i.e sender) , 
+                then check if the radio button is checked and execute the appropriate code */
+                if (radMed.Checked)
+                {
+                    price = CreateBookingForm.Season.mid;
+                    roomPrice = decimal.Parse(price);
+                    
+                }
+            }
         }
 
         private void radHigh_CheckedChanged(object sender, EventArgs e)
         {
-
+            if (radHigh != null)
+            {
+                /* If the call has been triggered by the radio button (i.e sender) , 
+                then check if the radio button is checked and execute the appropriate code */
+                if (radHigh.Checked)
+                {
+                    price = CreateBookingForm.Season.high;
+                    roomPrice = decimal.Parse(price);
+                    
+                }
+            }
         }
+        #endregion
+
+
 
         private void btnCancel_Click(object sender, EventArgs e)
         {

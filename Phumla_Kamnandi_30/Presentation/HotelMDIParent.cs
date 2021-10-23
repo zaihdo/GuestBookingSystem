@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Phumla_Kamnandi_30.Business;
 
 namespace Phumla_Kamnandi_30.Presentation
 {
@@ -18,6 +19,7 @@ namespace Phumla_Kamnandi_30.Presentation
         //EmployeeListingForm employeeListForm;
         BookingController bookingController;
         CreateGuestForm guestForm;
+        GuestController guestController;
         
 
         #endregion
@@ -46,7 +48,7 @@ namespace Phumla_Kamnandi_30.Presentation
 
         private void CreateNewGuestForm()
         {
-            guestForm = new CreateGuestForm(bookingController);
+            guestForm = new CreateGuestForm(guestController);
             guestForm.MdiParent = this;
             guestForm.StartPosition = FormStartPosition.CenterParent;
         }

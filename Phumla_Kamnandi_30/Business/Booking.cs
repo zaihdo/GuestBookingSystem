@@ -9,7 +9,7 @@ namespace Phumla_Kamnandi_30.Business
     public class Booking
     {
         #region data members
-        private string bookingID;
+        private int bookingID;
         private string guestID;
         private int numRooms;
         private DateTime checkIn;
@@ -21,7 +21,7 @@ namespace Phumla_Kamnandi_30.Business
         #region constructor
         public Booking()
         {
-            bookingID = null;
+            bookingID = 1;
             checkIn = DateTime.MinValue;
             checkOut = DateTime.MinValue;
             numRooms = 0;

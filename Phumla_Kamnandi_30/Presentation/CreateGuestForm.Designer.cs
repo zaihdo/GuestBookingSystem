@@ -101,6 +101,7 @@ namespace Phumla_Kamnandi_30.Presentation
             this.txtName.Name = "txtName";
             this.txtName.Size = new System.Drawing.Size(251, 20);
             this.txtName.TabIndex = 5;
+            this.txtName.TextChanged += new System.EventHandler(this.txtName_TextChanged);
             // 
             // txtID
             // 
@@ -108,6 +109,7 @@ namespace Phumla_Kamnandi_30.Presentation
             this.txtID.Name = "txtID";
             this.txtID.Size = new System.Drawing.Size(251, 20);
             this.txtID.TabIndex = 6;
+            this.txtID.TextChanged += new System.EventHandler(this.txtID_TextChanged);
             // 
             // txtPhone
             // 
@@ -115,6 +117,7 @@ namespace Phumla_Kamnandi_30.Presentation
             this.txtPhone.Name = "txtPhone";
             this.txtPhone.Size = new System.Drawing.Size(251, 20);
             this.txtPhone.TabIndex = 7;
+            this.txtPhone.TextChanged += new System.EventHandler(this.txtPhone_TextChanged);
             // 
             // txtEmail
             // 
@@ -122,6 +125,7 @@ namespace Phumla_Kamnandi_30.Presentation
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.Size = new System.Drawing.Size(251, 20);
             this.txtEmail.TabIndex = 8;
+            this.txtEmail.TextChanged += new System.EventHandler(this.txtEmail_TextChanged);
             // 
             // txtResAddress
             // 
@@ -129,6 +133,7 @@ namespace Phumla_Kamnandi_30.Presentation
             this.txtResAddress.Name = "txtResAddress";
             this.txtResAddress.Size = new System.Drawing.Size(251, 20);
             this.txtResAddress.TabIndex = 9;
+            this.txtResAddress.TextChanged += new System.EventHandler(this.txtResAddress_TextChanged);
             // 
             // menuStrip1
             // 
@@ -153,19 +158,19 @@ namespace Phumla_Kamnandi_30.Presentation
             // createBookingToolStripMenuItem
             // 
             this.createBookingToolStripMenuItem.Name = "createBookingToolStripMenuItem";
-            this.createBookingToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.createBookingToolStripMenuItem.Size = new System.Drawing.Size(155, 22);
             this.createBookingToolStripMenuItem.Text = "Create Booking";
             // 
             // homeToolStripMenuItem
             // 
             this.homeToolStripMenuItem.Name = "homeToolStripMenuItem";
-            this.homeToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.homeToolStripMenuItem.Size = new System.Drawing.Size(155, 22);
             this.homeToolStripMenuItem.Text = "Home";
             // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(155, 22);
             this.exitToolStripMenuItem.Text = "Exit";
             // 
             // btnClear
